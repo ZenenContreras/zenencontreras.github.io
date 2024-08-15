@@ -17,7 +17,7 @@
 :root {
   --color-bg: #e1e1e1;
   --color-text: #212121;
-  --color-tertiary: crimson;
+  --color-tertiary: #258EA6;
 
   --shadow: 6px 6px 12px #bababa, -6px -6px 12px #ffffff;
   --inner-shadow: inset 6px 6px 12px #bababa, inset -6px -6px 12px #ffffff;
@@ -40,7 +40,7 @@ body {
 body.active {
   --color-bg: #212121;
   --color-text: #e0e0e0;
-  --color-tertiary: crimson;
+  --color-tertiary: #258EA6;
 
   --shadow: 0.5rem 0.5rem 1rem #111, -6px -6px 12px #333;
   --inner-shadow: inset 0.5rem 0.5rem 1rem #111, inset -6px -6px 12px #333;
