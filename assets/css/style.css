@@ -976,7 +976,7 @@ svg {
   .home .right img {
     display: block;
     height: auto;
-    max-width: 100%;
+    max-width: auto;
     margin-top: -15px;
   }
   .home .left {
