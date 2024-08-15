@@ -36,6 +36,7 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 body.active {
   --color-bg: #212121;
@@ -45,8 +46,9 @@ body.active {
   --shadow: 0.5rem 0.5rem 1rem #111, -6px -6px 12px #333;
   --inner-shadow: inset 0.5rem 0.5rem 1rem #111, inset -6px -6px 12px #333;
 }
+
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: auto;
 }
 ::-webkit-scrollbar-track {
   box-shadow: var(--inner-shadow);
