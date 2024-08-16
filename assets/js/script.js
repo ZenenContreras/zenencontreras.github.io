@@ -43,7 +43,7 @@ themeBtn.onclick = function () {
 const typed = new Typed(".multiple-text", {
   strings: ["Frontend Developer", "UI/UX Designer"],
   typeSpeed: 100,
-  backSpeed: 100,
+  backSpeed: 70,
   backDelay: 1000,
   loop: true,
 });
